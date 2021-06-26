@@ -5,8 +5,8 @@ const Chord = ({ name, notes }) => {
                 {name}
 
                 <div className="mt-2 space-x-1 text-xs">
-                    {notes.map((i) => (
-                        <span>{i}</span>
+                    {notes.map((i, index) => (
+                        <span key={index}>{i}</span>
                     ))}
                 </div>
             </div>
