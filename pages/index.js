@@ -163,7 +163,7 @@ export default function Home() {
             };
         });
         setScales(scale);
-    }, [notes]);
+    }, [notes, getScaleNotes]);
 
     // console.log(scales);
 
